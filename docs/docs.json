@@ -1,0 +1,149 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Qdrant",
+  "colors": {
+    "primary": "#DC244C",
+    "light": "#DC244C",
+    "dark": "#c7163c"
+  },
+  "favicon": "/favicon.png",
+  "appearance": {
+    "default": "dark"
+  },
+  "background": {
+    "decoration": "gradient"
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Qdrant",
+        "groups": [
+          {
+            "group": " ",
+            "pages": ["documentation/index"]
+          },
+          {
+            "group": "Getting started",
+            "pages": [
+              {
+                "group": "What is Qdrant?",
+                "pages": [
+                  "documentation/overview",
+                  "documentation/overview/vector-search"
+                ]
+              },
+              "documentation/quickstart",
+              "documentation/interfaces",
+              "documentation/web-ui"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Cloud",
+        "groups": [
+          {
+            "group": " ",
+            "pages": ["documentation/cloud-intro"]
+          },
+          {
+            "group": "Getting started",
+            "pages": ["documentation/cloud-quickstart"]
+          }
+        ]
+      },
+      {
+        "tab": "Build",
+        "groups": [
+          {
+            "group": " ",
+            "pages": ["documentation/build"]
+          },
+          {
+            "group": "Essentials",
+            "pages": [
+              "documentation/data-ingestion-beginners",
+              "documentation/agentic-rag-crewai-zoom",
+              "documentation/agentic-rag-langgraph"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "FAQs",
+        "groups": [
+          {
+            "group": "FAQs",
+            "pages": [
+              "documentation/faqs/qdrant-fundamentals",
+              "documentation/faqs/database-optimization"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API reference",
+        "openapi": "/openapi.json"
+      }
+    ],
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Contact Us",
+          "href": "https://qdrant.tech/contact-us/",
+          "icon": "headset"
+        },
+        {
+          "anchor": "Community",
+          "href": "https://discord.com/invite/tdtYvXjC4h",
+          "icon": "discord"
+        },
+        {
+          "anchor": "Blog",
+          "href": "https://qdrant.tech/blog/",
+          "icon": "newspaper"
+        }
+      ]
+    }
+  },
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg",
+    "href": "https://qdrant.tech/"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Log in",
+        "href": "https://qdrant.to/cloud"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Start Free",
+      "href": "https://cloud.qdrant.io/signup"
+    }
+  },
+  "contextual": {
+    "options": [
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ]
+  },
+  "footer": {
+    "socials": {
+      "x": "https://x.com/qdrant_engine",
+      "github": "https://github.com/qdrant/qdrant",
+      "linkedin": "https://www.linkedin.com/company/qdrant/",
+      "discord": "https://discord.com/invite/tdtYvXjC4h",
+      "youtube": "https://www.youtube.com/channel/UC6ftm8PwH1RU_LM1jwG0LQA"
+    }
+  }
+}
